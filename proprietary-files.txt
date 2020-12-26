@@ -1,7 +1,7 @@
-# MiuiCamera - from laurel_sprout V11.0.20.0.QFQMIXM - manually patched
--priv-app/MiuiCamera/MiuiCamera.apk|65cd34d64337d3b378f4323d87d76b15b698c64f
+# MiuiCamera - from laurel_sprout V11.0.23.0.QFQMIXM
+-priv-app/MiuiCamera/MiuiCamera.apk
 
-# MiuiCamera - libraries - from laurel_sprout V11.0.15.0.QFQMIXM
+# MiuiCamera - libraries - from laurel_sprout V11.0.23.0.QFQMIXM
 lib64/libarc_layer_sgl.so:priv-app/MiuiCamera/lib/arm64/libarc_layer_sgl.so
 lib64/libCameraEffectJNI.so:priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so
 lib64/libarcsoft_wideselfie.so:priv-app/MiuiCamera/lib/arm64/libarcsoft_wideselfie.so
@@ -35,5 +35,6 @@ vendor/camera/fonts/MIUI_Time.ttf
 # ArcSoft config
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 
-# Camera service - from ginkgo MIUI 20.8.20
+# Camera service - from laurel_sprout V11.0.23.0.QFQMIXM
 lib/libcameraservice.so
+lib/vendor.qti.hardware.camera.device@3.2.so
